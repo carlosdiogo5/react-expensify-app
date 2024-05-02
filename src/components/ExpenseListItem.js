@@ -10,6 +10,7 @@ const ExpenseListItem = ({ id, description, amount, createdAt}) => {
         <h3>{description}</h3>
       </Link>
       <p>{amount} - {createdAt}</p>
+      <p>{id}</p>
     </div>
   );
 };
